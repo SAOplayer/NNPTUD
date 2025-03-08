@@ -1,0 +1,84 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "First Post",
+      "views": 150,
+      "author": "Alice",
+      "isPublished": true
+    },
+    {
+      "id": "3",
+      "title": "Duplicate Post",
+      "views": "123",
+      "author": "Eve",
+      "isPublished": true
+    },
+    {
+      "id": "3",
+      "title": "Duplicate Post",
+      "views": "123",
+      "author": "Eve",
+      "isPublished": true
+    },
+    {
+      "id": "4",
+      "title": "đvsdb",
+      "views": "12",
+      "author": "Bob",
+      "isPublished": true
+    },
+    {
+      "id": "5",
+      "title": "gvưbv",
+      "views": "87",
+      "author": "tai",
+      "isPublished": false
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "authors": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "postCount": 0
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "postCount": 1
+    },
+    {
+      "id": "3",
+      "name": "Charlie",
+      "postCount": 1
+    },
+    {
+      "id": "4",
+      "name": "David",
+      "isDeleted": false
+    },
+    {
+      "id": "5",
+      "name": "Eve"
+    },
+    {
+      "id": "6",
+      "name": "tai"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
